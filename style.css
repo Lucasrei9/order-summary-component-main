@@ -1,0 +1,150 @@
+/* reset da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(229, 236, 243);
+}
+
+/* inívio da modificação do <main> */
+
+main {
+  position: relative;
+  top: 1rem;
+  margin: auto;
+  width: 320px;
+  height: 470px;
+  border-radius: 1rem;
+
+  background-color: white;
+}
+
+.imageTop {
+  display: block;
+  width: 20rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.text {
+  position: relative;
+  top: 1.5rem;
+  margin: auto;
+  width: 245px;
+  height: 100px;
+  /* background-color: bisque; */
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: rgb(12, 2, 22);
+}
+
+.text p {
+  position: relative;
+  top: 0.7rem;
+  color: rgba(12, 2, 22, 0.733);
+}
+
+.purchase {
+  position: relative;
+  top: 2.2rem;
+  margin: auto;
+  width: 260px;
+  height: 70px;
+  background-color: rgba(238, 241, 241, 0.548);
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  font-family: sans-serif;
+}
+
+.music {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.purchase h3 {
+  position: relative;
+  top: -0.7rem;
+  left: 0.49rem;
+
+  font-size: 0.85rem;
+}
+
+.purchase p {
+  position: relative;
+  top: 0.7rem;
+  left: -4.5rem;
+
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.466);
+}
+
+.purchase a {
+  font-family: sans-serif;
+  position: relative;
+  left: -2.5rem;
+  width: 20px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: rgb(83, 28, 209);
+  background-color: rgba(238, 241, 241, 0.548);
+}
+
+.pay {
+  position: relative;
+  top: 3.3rem;
+  margin: auto;
+  width: 270px;
+  height: 45px;
+  background-color: rgb(49, 13, 207);
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.pay:hover {
+  background-color: rgb(68, 48, 160);
+  box-shadow: -2px 1px 10px rgb(117, 91, 230);
+}
+
+.cancel {
+  position: relative;
+  top: 4rem;
+  margin: auto;
+  text-align: center;
+  font-size: 0.85rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.cancel a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+.cancel a:hover {
+  text-shadow: -2px 1px 5px rgba(84, 84, 87, 0.692);
+  text-decoration: none;
+}
+
+.attribution {
+  position: relative;
+  top: 1.3rem;
+}
